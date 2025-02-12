@@ -14,6 +14,20 @@ TaskWire est un framework permettant de gérer des jobs asynchrones avec WebSock
 
   - ⚡ Middleware Express : Intégration simple avec les applications Express.
 
+## ❓ Pourquoi TaskWire ?
+
+Les architectures classiques basées sur HTTP nécessitent souvent de nombreux appels réseau synchrones, ce qui peut entraîner une latence accrue et une surcharge du serveur. 
+
+TaskWire résout ce problème en :
+
+  - Utilisant WebSockets pour une communication bidirectionnelle en temps réel.
+
+  - Permettant un suivi transparent des jobs avec un système de queue robuste.
+
+  - Réduisant la charge serveur grâce à une gestion asynchrone des tâches.
+
+  - Offrant une intégration fluide avec Express et d'autres frameworks.
+
 ## 📦 Installation
 
 Installez les différents packages selon vos besoins :
